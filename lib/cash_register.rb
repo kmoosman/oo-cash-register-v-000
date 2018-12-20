@@ -12,7 +12,6 @@ class CashRegister
      @total += price * qty
      qty.times { @items << title }
      @last_item = price * qty
-    # @last_transaction.push([item_name, price, quantity])
    end
   
   
