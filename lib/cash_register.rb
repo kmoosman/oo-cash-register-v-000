@@ -15,11 +15,6 @@ class CashRegister
     # @last_transaction.push([item_name, price, quantity])
    end
   
-  # def add_item(title, price, qty = 1)
-  #   @title = title 
-  #   @total += price * qty
-  #   # qty.times { self.items << title }
-  # end
   
   def apply_discount
     if self.discount == 0 
